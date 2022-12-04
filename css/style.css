@@ -28,6 +28,10 @@ img {
   opacity:80%;
 }
 
+input {
+  font-family: 'Yeon Sung', cursive;
+}
+
 input:focus {
 	outline: none;
 }
