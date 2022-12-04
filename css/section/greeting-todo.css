@@ -1,0 +1,63 @@
+#greeting {
+  font-size: 48px;
+}
+
+#todo-form {
+  margin: 30px auto;
+}
+
+#todo-form input{
+  width: 500px;
+  font-size: 22px;
+  padding: 7px 15px;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  color: white;
+  opacity: 0.9;
+  border-bottom: 2px solid #EDEDED;
+  border-radius: 15%;
+  text-align: center;
+}
+
+#todo-form input::placeholder {
+  color: white;
+  font-family: 'Yeon Sung', cursive;
+  text-align: center;
+}
+
+#todo-list {
+  width: 50%;
+  height: 150px;
+  overflow: auto;
+  font-size: 20px;
+  text-align: center;
+  column-count: 3;
+  padding: 20px;
+  line-height: 1.75;
+}
+
+#todo-list::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(226, 221, 221);
+  border-radius: 25px;
+}
+
+#todo-list::-webkit-scrollbar-thumb {
+  background-color: rgb(194, 189, 189);
+  border-radius: 25px;
+}
+
+#todo-list span {
+  margin-right: 5px;
+}
+
+#todo-list button {
+  border: none;
+  border-radius: 5px;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 12px;
+  background: transparent;
+  color: white;
+}

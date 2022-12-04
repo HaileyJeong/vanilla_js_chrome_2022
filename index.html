@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="top-line">
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="main">
+    <div class="time">
+      <h2 id="clock">00:00:00</h2>
+      <h3 id="today"></h3>
+    </div>
+    <form id="login-form">
+      <input type="text" required maxlength="15" placeholder="What is your name?" />
+      <button>Log In</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form" class="hidden">
+      <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
+  <script src="js/time.js"></script>
+  <script src="js/greeting.js"></script>
+  <script src="js/quote.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+
+  <div id="no-mobile">
+    <span>Sorry! This page is made for PC browser.</span>
+  </div>
+  
+</body>
+</html>

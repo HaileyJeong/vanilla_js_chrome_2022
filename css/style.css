@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+@import "reset.css";
+
+@import "section/top.css";
+@import "section/time-login.css";
+@import "section/greeting-todo.css";
+@import "section/no-mobile.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  color: white;
+  font-family: 'Yeon Sung', cursive;
+}
+
+img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:80%;
+}
+
+input:focus {
+	outline: none;
+}
