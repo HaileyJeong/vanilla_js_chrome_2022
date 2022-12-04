@@ -1,5 +1,12 @@
 #greeting {
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+#greeting:hover {
   font-size: 48px;
+  opacity: 1;
+  transition: font-size .2s ease-in-out, opacity .5s ease-in-out;
 }
 
 #todo-form {
@@ -16,8 +23,13 @@
   color: white;
   opacity: 0.9;
   border-bottom: 2px solid #EDEDED;
+  transition: border-bottom 2s ease-in-out;
   border-radius: 15%;
   text-align: center;
+}
+
+#todo-form input:focus {
+  font-family: 'Yeon Sung', cursive;
 }
 
 #todo-form input::placeholder {
@@ -35,6 +47,13 @@
   column-count: 3;
   padding: 20px;
   line-height: 1.75;
+}
+
+#todo-list:hover {
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 20px;
+  color: #3D3D3D;
 }
 
 #todo-list::-webkit-scrollbar {
@@ -57,7 +76,11 @@
   border: none;
   border-radius: 5px;
   font-family: 'Yeon Sung', cursive;
-  font-size: 12px;
+  font-size: 14px;
   background: transparent;
   color: white;
+}
+
+#todo-list:hover button {
+  color: #3D3D3D;
 }

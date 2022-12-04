@@ -36,8 +36,13 @@
   color: white;
   opacity: 0.9;
   border-bottom: 2px solid #EDEDED;
+  transition: border-bottom 2s ease-in-out;
   border-radius: 15%;
   text-align: center;
+}
+
+#login-form input:focus {
+  font-family: 'Yeon Sung', cursive;
 }
 
 #login-form input::placeholder {
